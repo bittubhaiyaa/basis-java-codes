@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class firstexercise {
+    public static void main(String[] args) {
+        System.out.println("CBSE board exam percentage of a student");
+        Scanner S=new Scanner(System.in);
+        System.out.println("sub1");
+        float sub1=S.nextFloat();
+        System.out.println("sub 2");
+        float sub2=S.nextFloat();
+        System.out.println("sub 3");
+        float sub3=S.nextFloat();
+        System.out.println("sub 4");
+        float sub4=S.nextFloat();
+        System.out.println("sub 5");
+        float sub5=S.nextFloat();
+        float percentage= ((sub1+sub2+sub3+sub4+sub5)/500)*100;
+        System.out.println("The percentage of student is ");
+        System.out.println(percentage);
+
+
+    }
+}
